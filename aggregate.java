@@ -1,5 +1,5 @@
 
-public class aggregate {
+public class Aggregate {
 
 	public static void main(String[] args) {
 		
