@@ -1,5 +1,5 @@
 
-public class total {
+public class Total {
 
 	public static void main(String[] args) {
 		
