@@ -8,7 +8,7 @@ public class Exercises09 {
 
         double number1 = 4.5;
         double number2 = 7.9;
-        double aggregate = number1 * number2;
-        System.out.println("Aggregate =" + aggregate);
+        double result = number1 * number2;
+        System.out.println("Transaction Result = " + result);
     }
 }
