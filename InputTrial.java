@@ -8,7 +8,7 @@ public class InputTrial {
         double number1 = input.nextDouble();
         
         System.out.println("Please enter your second enter: ");
-        final double number2 =input.nextDouble();
+        double number2 =input.nextDouble();
         
         System.out.println("This is your numbers total: ");
         double total = number1 + number2;
