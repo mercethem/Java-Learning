@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3594ce9f-ee42-4c31-b544-1275691fba8d" name="Changes" comment="29.10.2022">
-      <change afterPath="$PROJECT_DIR$/DisplayToCurrentTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntellijIdea/FahrenheitToCelcius.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntellijIdea/FahrenheitToCelcius.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NumericTypeConversion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +18,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -27,6 +27,9 @@
         <option name="url" value="https://github.com/mercethem/Java-Trials.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/SomeStaffAtOperators.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,7 +52,7 @@
     &quot;last_opened_file_path&quot;: &quot;E:/IntellijIdea&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DisplayToCurrentTime">
+  <component name="RunManager" selected="Application.NumericTypeConversion">
     <configuration name="DisplayToCurrentTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DisplayToCurrentTime" />
       <module name="IntellijIdea" />
@@ -64,6 +67,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NumericTypeConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumericTypeConversion" />
+      <module name="IntellijIdea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SomeStaffAtOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SomeStaffAtOperators" />
+      <module name="IntellijIdea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TransformMathematicaToCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TransformMathematicaToCode" />
       <module name="IntellijIdea" />
@@ -73,6 +90,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumericTypeConversion" />
+        <item itemvalue="Application.SomeStaffAtOperators" />
         <item itemvalue="Application.DisplayToCurrentTime" />
         <item itemvalue="Application.FahrenheitToCelcius" />
         <item itemvalue="Application.TransformMathematicaToCode" />
@@ -88,7 +107,10 @@
       <option name="presentableId" value="Default" />
       <updated>1667033544902</updated>
       <workItem from="1667033546199" duration="7949000" />
-      <workItem from="1667043594266" duration="12000" />
+      <workItem from="1667043594266" duration="5324000" />
+      <workItem from="1667048982180" duration="589000" />
+      <workItem from="1667054308176" duration="4426000" />
+      <workItem from="1667059803249" duration="1027000" />
     </task>
     <task id="LOCAL-00001" summary="29.10.2022">
       <created>1667035569747</created>
@@ -111,7 +133,63 @@
       <option name="project" value="LOCAL" />
       <updated>1667039665674</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="29.10.2022">
+      <created>1667048544383</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667048544383</updated>
+    </task>
+    <task id="LOCAL-00005" summary="29.10.2022">
+      <created>1667048551232</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667048551232</updated>
+    </task>
+    <task id="LOCAL-00006" summary="29.10.2022">
+      <created>1667048642758</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667048642758</updated>
+    </task>
+    <task id="LOCAL-00007" summary="29.10.2022">
+      <created>1667048680241</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667048680241</updated>
+    </task>
+    <task id="LOCAL-00008" summary="29.10.2022">
+      <created>1667048778443</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667048778443</updated>
+    </task>
+    <task id="LOCAL-00009" summary="29.10.2022">
+      <created>1667059386952</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667059386952</updated>
+    </task>
+    <task id="LOCAL-00010" summary="29.10.2022">
+      <created>1667059451492</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667059451492</updated>
+    </task>
+    <task id="LOCAL-00011" summary="29.10.2022">
+      <created>1667060487692</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667060487692</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
