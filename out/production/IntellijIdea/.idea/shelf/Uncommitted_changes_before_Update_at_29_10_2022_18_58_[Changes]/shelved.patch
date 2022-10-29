@@ -1,0 +1,53 @@
+Index: SomeStaffAtOperators.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SomeStaffAtOperators.java b/SomeStaffAtOperators.java
+new file mode 100644
+--- /dev/null	(date 1667059104171)
++++ b/SomeStaffAtOperators.java	(date 1667059104171)
+@@ -0,0 +1,43 @@
++public class SomeStaffAtOperators {
++    public static void main(String[] args) {
++
++        int number1 = 10;
++        number1 = number1 + 5;
++        System.out.println(number1);
++
++        int number2 = 5;
++        number2 += 10; // We can use that situation because this situation easy to use
++        System.out.println(number2);
++
++        int a = 9;
++        int b = 12;
++        a++; // We can use that situation because this situation easy to use
++        b--; // We can use that situation because this situation easy to use
++        System.out.println(a);
++        System.out.println(b);
++
++        a = 9;
++        b = 12;
++        ++a; // We can use that situation because this situation easy to use
++        --b; // We can use that situation because this situation easy to use
++        System.out.println(a);
++        System.out.println(b);
++
++
++        int k = 20;
++        int l = k;
++        k = l++;
++        System.out.println(k);
++        System.out.println(l);
++
++        int m = 20;
++        int n = m;
++        m = ++n;    /*Nowadays coders do not use this part
++                    just use statement in the top line
++                    because this part so much confusable phrase.
++                    So do not insist to use that variable "--/++" */
++        System.out.println(m);
++        System.out.println(n);
++
++    }
++}
