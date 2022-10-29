@@ -36,5 +36,13 @@ public class SomeStaffAtOperators {
         int c = f * 20;
         System.out.println(f);
         System.out.println(c);
+
+        int i = 5;
+        int j = ++i + i++ + ++i + ++i;  /* NEVER USE THIS FORM!
+                                        THIS FORM can usable BUT UNDERSTANDABLE
+                                        ANYONE CAN NOT UNDERSTAND THIS FORM AFTER YOU*/
+        System.out.println(i);
+        System.out.println(j);
+
     }
 }
