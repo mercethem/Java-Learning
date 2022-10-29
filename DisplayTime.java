@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DiplayTime {
+public class DisplayTime {
     public static void main(String[] args) {
         System.out.println("Please enter minute want to calculate : ");
 
