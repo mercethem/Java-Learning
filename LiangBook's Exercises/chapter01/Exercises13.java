@@ -16,7 +16,7 @@ public class Exercises13 {
         /*44.5 = (3.4 * x) + (50.2 * y);
         5.9 = (2.1 * x) + (0.55 * y);*/
 
-        System.out.println("x is : " + x + "y is : " + y);
+        System.out.println("x is : " + x + " y is : " + y);
 
     }
 }
