@@ -10,6 +10,7 @@ public class Aggregate {
 		String total = "Total = " + aggregate;
 		System.out.println(total);
 
+
 	}
 
 }
