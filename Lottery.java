@@ -68,7 +68,7 @@ public class Lottery {
             System.out.println("We are sorry you lose :( ");
 
             /*I do not know how can i select dual, triple, quaternary, quintet formation
-            then i will chance later i will learn */
+            then i will chance later i will learn.*/
         }
     }
 }
