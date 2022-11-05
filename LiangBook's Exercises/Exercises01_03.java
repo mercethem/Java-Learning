@@ -1,4 +1,4 @@
-public class Exercises03 {
+public class Exercises01_03 {
     public static void main(String[] args) {
         System.out.println(
                 "       J    A   V     V   A        \n" +

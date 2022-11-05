@@ -1,5 +1,5 @@
 
-public class Exercises09 {
+public class Exercises01_09 {
 
     public static void main(String[] args) {
         // Changed this section because i learned new codes.
