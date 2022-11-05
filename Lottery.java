@@ -55,7 +55,7 @@ public class Lottery {
             System.out.print(" " + number5);
         }
         if (result6) {
-            System.out.println(" ") ;
+            System.out.println(" ");
         } else {
             System.out.println(" " + number6);
         }
