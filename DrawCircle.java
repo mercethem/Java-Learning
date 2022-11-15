@@ -8,10 +8,8 @@ public class DrawCircle {
         double distance;
 
         for (int i = 0; i <= 2 * radius; i++) {
-
             for (int j = 0; j <= 2 * radius; j++) {
-                distance = Math.sqrt((i - radius) * (i - radius) +
-                            (j - radius) * (j - radius));
+                distance = Math.sqrt((i - radius) * (i - radius) + (j - radius) * (j - radius));
                 if (distance > radius - 0.5 && distance < radius + 0.5) {
                     System.out.print("*");
                 } else {
