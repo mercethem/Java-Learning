@@ -5,7 +5,7 @@ public class IfSwap {
         int number1 = (int) (Math.random() * 10);
         int number2 = (int) (Math.random() * 10);
 
-        if ( number1 < number2) {
+        if (number1 < number2) {
             int temp = number1;
             number1 = number2;
             number2 = temp;
