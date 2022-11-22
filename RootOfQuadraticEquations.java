@@ -8,8 +8,8 @@ public class RootOfQuadraticEquations {
         double a = keyboard.nextDouble();
         double b = keyboard.nextDouble();
         double c = keyboard.nextDouble();
-        double x1 = ((-b) + (Math.sqrt(Math.pow(b, 2) - (4 * a * c)))) / (2 * a);
-        double x2 = ((-b) - (Math.sqrt(Math.pow(b, 2) - (4 * a * c)))) / (2 * a);
+        double x1 = (-b + (Math.sqrt((b * b) - (4 * a * c)))) / (2 * a);
+        double x2 = (-b - (Math.sqrt(((b * b) - (4 * a * c)))) / (2 * a));
         System.out.println("x1 : " + x1 + " , " + " x2 : " + x2);
 
     }
