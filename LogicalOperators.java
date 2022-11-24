@@ -10,7 +10,7 @@ public class LogicalOperators {
         if (number % 2 == 0 && number % 3 == 0) {
             System.out.println("Your number divide by 2 and 3");
         }
-        if (number % 2 == 0 || number % 3 == 0){
+        if (number % 2 == 0 || number % 3 == 0) {
             System.out.println("Your number divide by 2 or 3");
         }
         if (number % 2 == 0 ^ number % 3 == 0) {

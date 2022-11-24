@@ -17,8 +17,8 @@ public class InterestCalculation {
         double monthlyPayment = (loanAmount * monthlyInterestRate) / (1 - (1 / (Math.pow(1 + monthlyInterestRate, numberOfYear * 12))));
         double totalPayment = monthlyPayment * numberOfYear * 12;
 
-        System.out.println("Your total payment is " + (float)totalPayment);
-        System.out.println("your monthly payment is " + (float)monthlyPayment);
+        System.out.println("Your total payment is " + (float) totalPayment);
+        System.out.println("your monthly payment is " + (float) monthlyPayment);
 
     }
 }

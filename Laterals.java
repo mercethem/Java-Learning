@@ -2,7 +2,7 @@
 public class Laterals {
 
     public static void main(String[] args) {
-        byte b = 127; 
+        byte b = 127;
 
         short s = 32767;
 
