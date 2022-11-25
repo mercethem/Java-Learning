@@ -3,5 +3,5 @@ public class Number {
         int num = 8;
         System.out.println(num);
     }
-    
+
 }

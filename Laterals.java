@@ -1,4 +1,3 @@
-
 public class Laterals {
 
     public static void main(String[] args) {
