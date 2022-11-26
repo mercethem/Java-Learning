@@ -12,7 +12,7 @@ public class Lottery {
         System.out.print("Please enter two number about two digits : ");
         String input = scanner.nextLine();
         String[] inputs = input.split("-");
-        if (inputs.length < NUMBER_COUNT){
+        if (inputs.length < NUMBER_COUNT) {
             throw new IndexOutOfBoundsException("hata");
         }
         List<Integer> randomNumbers = new ArrayList<Integer>();
