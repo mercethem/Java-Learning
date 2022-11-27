@@ -8,7 +8,7 @@ public class SwitchBreak {
                 "1 for Monday \n" +
                 "7 for Monday \n");
         int day = input.nextInt();
-        switch (day){
+        switch (day) {
             case 1:
             case 2:
             case 3:
