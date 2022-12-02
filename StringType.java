@@ -7,7 +7,6 @@ public class StringType {
         System.out.println(str.charAt(0));
         System.out.println(str.charAt(7));
         /** System.out.println(str.charAt(16));//StringIndexOutOfBoundsException!!!!!!!! **/
-
         System.out.println(str.concat(str));
         System.out.println(str.toUpperCase());
         System.out.println(str.toLowerCase());
