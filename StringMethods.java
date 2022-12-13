@@ -17,7 +17,6 @@ public class StringMethods {
                                                             Firs value = old characters - Second value = new characters
                                                             str.replaceAll("\\s+", " ").trim() this method is deletes default
                                                             spaces with normal just one space. */
-
         boolean h = str.startsWith(" "); //Controlling what is the start characters (Plural or singular)
         boolean i = str.endsWith(" ");   //Controlling what is the last characters (Plural or singular)
         char j = str.charAt(5);          //Controlling what is the character inside brackets
