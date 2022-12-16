@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Matrix {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
-        System.out.println("Please enter an integer for line : ");
+        System.out.println("Please enter an integer for rows : ");
         System.out.println("Please enter an integer for column : ");
         int line = keyboard.nextInt();
         int column = keyboard.nextInt();
