@@ -12,10 +12,10 @@ public class ArrayPractice {
         }
         System.out.println();
 
-        for (int i = 0; i <numbers2.length ; i++) {
+        for (int i = 0; i < numbers2.length; i++) {
             System.out.println(numbers2[i]++);
         }
-        for (int x:numbers2){
+        for (int x : numbers2) {
             System.out.println(x);
         }
     }
