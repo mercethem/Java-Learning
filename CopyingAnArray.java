@@ -15,7 +15,7 @@ public class CopyingAnArray {
         A[8] = 14;
         A[9] = 11;
         for (int i = 0; i < A.length; i++) {
-                B[i]=A[i];
+            B[i] = A[i];
             System.out.print(B[i] + " ");
         }
 
