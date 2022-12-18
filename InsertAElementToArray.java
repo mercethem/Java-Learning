@@ -1,4 +1,5 @@
 //Insert a value to array
+
 import java.util.Scanner;
 
 public class InsertAElementToArray {
@@ -19,10 +20,10 @@ public class InsertAElementToArray {
         System.out.println("Place enter a sequence in array want to insert : ");
         int placeInArray = keyboard.nextInt();
 
-        for (int i =A.length-placeInArray ; i >= placeInArray; i--) {
+        for (int i = A.length - placeInArray; i >= placeInArray; i--) {
             A[i + 1] = A[i];
         }
-        A[placeInArray]=number;
+        A[placeInArray] = number;
 
         for (int i = 0; i < A.length; i++) {
             System.out.print(A[i] + ",");
