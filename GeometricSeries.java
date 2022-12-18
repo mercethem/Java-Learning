@@ -1,4 +1,5 @@
 //Geometric series
+
 import java.util.Scanner;
 
 public class GeometricSeries {
@@ -9,8 +10,8 @@ public class GeometricSeries {
         int geometric = keyboard.nextInt();
 
 
-        for (int i = 1; i<=number; i++){
-            start = start*geometric;
+        for (int i = 1; i <= number; i++) {
+            start = start * geometric;
             System.out.println(start);
         }
     }
