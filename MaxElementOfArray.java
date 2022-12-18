@@ -10,6 +10,6 @@ public class MaxElementOfArray {
             }
 
         }
-        System.out.println("Largest element is : "+max1);
+        System.out.println("Largest element is : " + max1);
     }
 }
