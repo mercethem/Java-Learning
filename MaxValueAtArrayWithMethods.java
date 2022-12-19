@@ -1,5 +1,6 @@
 //About finding max value in array with using method
 public class MaxValueAtArrayWithMethods {
+
     static int arr(int ...A) {
         for (int i = 0; i <A.length-1 ; i++) {
             if(A[i]>A[i+1]){
