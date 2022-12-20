@@ -4,59 +4,58 @@ class Cylinder {
     private int radius;
     private int height;
 
-     Cylinder() {
+    Cylinder() {
         radius = height = 1;
     }
 
-     Cylinder(int r, int h) {
+    Cylinder(int r, int h) {
         radius = r;
         height = h;
     }
 
-     int getHeight() {
+    int getHeight() {
         return height;
     }
 
-     int getRadius() {
+    int getRadius() {
         return radius;
     }
 
-     void setHeight(int h) {
+    void setHeight(int h) {
         if (h >= 0)
             height = h;
         else
             height = 0;
     }
 
-     void setRadius(int r) {
+    void setRadius(int r) {
         if (r >= 0)
             radius = r;
         else
             radius = 0;
     }
 
-     void setDimensions(int h, int r) {
+    void setDimensions(int h, int r) {
         height = h;
         radius = r;
     }
 
-     double lidArea() {
+    double lidArea() {
         return Math.PI * radius * radius;
     }
 
-     double perimeter() {
+    double perimeter() {
         return 2 * Math.PI * radius;
     }
 
-     double drumArea() {
+    double drumArea() {
         return 2 * lidArea() + perimeter() * height;
     }
 
-     double volume() {
+    double volume() {
         return lidArea() * height;
     }
 }
-
 
 class CylinderTest {
 
