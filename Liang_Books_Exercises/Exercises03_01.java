@@ -1,4 +1,5 @@
 package import1;
+
 import java.util.Scanner;
 
 //Algebra: solve quadratic equations
@@ -18,10 +19,9 @@ public class Exercises03_01 {
         r2 = (-b - Math.sqrt(discriminant)) / (2 * a);
 
 
-
         if (discriminant < 0) {
             System.out.println("The equation has no real roots.");
-        } else if (discriminant == 0){
+        } else if (discriminant == 0) {
             System.out.println("The equation's two same roots" + r1);
         } else {
 
