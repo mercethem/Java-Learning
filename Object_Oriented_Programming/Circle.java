@@ -20,7 +20,7 @@ public class Circle {
     }
 }
 
- class Circletest {
+ class CircleTest {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Please enter radius : ");
