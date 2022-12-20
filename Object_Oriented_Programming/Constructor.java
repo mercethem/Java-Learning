@@ -10,11 +10,11 @@ class Constructor {
         length=1;
         breadth=1;
     }
-    public Constructor(double l, double b){
+    Constructor(double l, double b){
         length = l;
         breadth = b;
     }
-    public Constructor(double s){
+     Constructor(double s){
         length=breadth=s;
     }
 }

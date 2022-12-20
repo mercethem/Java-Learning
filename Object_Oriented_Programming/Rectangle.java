@@ -5,8 +5,8 @@ package Object_Oriented_Programming;
 import java.util.Scanner;
 
 class Rectangle {
-    public double breadth;
-    public double length;
+    private double breadth;
+    private double length;
 
     static double area(double length, double breadth) {
         return length * breadth;

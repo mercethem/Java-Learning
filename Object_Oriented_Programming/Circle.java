@@ -3,7 +3,7 @@ package Object_Oriented_Programming;
 
 import java.util.Scanner;
 
-public class Circle {
+ class Circle {
     static double radius;
     static double height;
 
@@ -21,7 +21,7 @@ public class Circle {
 }
 
  class CircleTest {
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Please enter radius : ");
         double radius = keyboard.nextDouble();
