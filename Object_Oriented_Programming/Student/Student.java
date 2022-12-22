@@ -1,5 +1,5 @@
 //Calculation and information about student with OOP
-package Object_Oriented_Programming;
+package Object_Oriented_Programming.Student;
 
 import java.util.Scanner;
 
