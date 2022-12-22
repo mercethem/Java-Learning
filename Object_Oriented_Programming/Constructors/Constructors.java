@@ -1,5 +1,5 @@
 //About constructor in java programming
-package Object_Oriented_Programming;
+package Object_Oriented_Programming.Constructors;
 
 
 class Constructor {
