@@ -1,5 +1,5 @@
 //Finding about a circle's calculations with OOP
-package Object_Oriented_Programming;
+package Object_Oriented_Programming.Circle;
 import java.util.Scanner;
 class Circle {
     private static double radius;
