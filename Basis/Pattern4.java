@@ -1,4 +1,5 @@
 //Draw pattern
+
 import java.util.Scanner;
 
 public class Pattern4 {
@@ -6,15 +7,14 @@ public class Pattern4 {
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Please enter an integer for draw pattern : ");
         int number = keyboard.nextInt();
-        int counter=1;
+        int counter = 1;
         for (int i = 1; i <= number; i++) {
-            for (int j = 1; j <=i ; j++) {
-                System.out.printf("%02d ",counter);
+            for (int j = 1; j <= i; j++) {
+                System.out.printf("%02d ", counter);
                 counter++;
             }
             System.out.println();
         }
-
 
 
     }
