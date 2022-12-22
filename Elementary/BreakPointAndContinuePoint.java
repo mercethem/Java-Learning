@@ -1,5 +1,5 @@
 //About break point.
-package Basis;
+package Elementary;
 
 public class BreakPointAndContinuePoint {
     public static void main(String[] args) {
