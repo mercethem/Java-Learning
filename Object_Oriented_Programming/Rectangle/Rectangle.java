@@ -1,6 +1,6 @@
 //Created for rectangle's finding area and perimeter. This class and others in this package's OOP's learning
 
-package Object_Oriented_Programming;
+package Object_Oriented_Programming.Rectangle;
 
 import java.util.Scanner;
 
