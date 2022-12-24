@@ -17,7 +17,7 @@ public class BreakPointAndContinuePoint {
 
                 }
                 if (j == 2) {
-                    continue;
+                    continue aa;
                 }
 
             }
