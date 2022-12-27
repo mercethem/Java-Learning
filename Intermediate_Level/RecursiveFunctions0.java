@@ -1,4 +1,4 @@
-// This is about fibonacci
+// This is about fibonacci done using the recursive function
 package Intermediate_Level;
 
 import java.util.Scanner;
