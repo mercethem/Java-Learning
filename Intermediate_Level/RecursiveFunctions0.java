@@ -3,7 +3,7 @@ package Intermediate_Level;
 
 import java.util.Scanner;
 
-public class RecursiveFunctions {
+public class RecursiveFunctions0 {
     public static int fibonacci(int n){
         if (n==0) return 1;
         if (n==1) return 1;
