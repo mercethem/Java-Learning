@@ -10,7 +10,7 @@ public class Exercises02_14 {
         System.out.println("Please enter your inches : ");
         float inches = keyboard.nextFloat();
 
-        float bmi = (float)(mass / (inches * inches) * 703.06957964);
+        float bmi = (float) (mass / (inches * inches) * 703.06957964);
 
         System.out.println(bmi);
     }
