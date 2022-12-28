@@ -13,10 +13,8 @@ public class Exercises02_17 {
 
         double twc; //twc is formula's result
 
-        twc = 35.74 + (0.6215  * ta) - 35.75 * Math.pow(v,0.16) + 0.4275 * ta * Math.pow(v,0.16);
+        twc = 35.74 + (0.6215 * ta) - 35.75 * Math.pow(v, 0.16) + 0.4275 * ta * Math.pow(v, 0.16);
         System.out.println("The wind chill index is : " + twc);
-
-
 
 
     }
