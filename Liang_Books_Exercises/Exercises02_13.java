@@ -11,7 +11,7 @@ public class Exercises02_13 {
         System.out.println(" Please enter savings percentage (e.g 5 ): ");
         float percentage = keyboard.nextFloat();
 
-        float monthPercentage = (float)((percentage * 0.01) / 12);
+        float monthPercentage = (float) ((percentage * 0.01) / 12);
         float totalSaving;
         totalSaving = monthlySaving * (1 + monthPercentage);
         totalSaving = (totalSaving + monthlySaving) + (1 + monthPercentage);
