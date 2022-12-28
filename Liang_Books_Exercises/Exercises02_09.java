@@ -10,8 +10,8 @@ public class Exercises02_09 {
 
         float initialSpeed = keyboard.nextFloat();
         float finishSpeed = keyboard.nextFloat();
-        float time = keyboard. nextFloat();
-        float acceleration = (finishSpeed - initialSpeed) / time ;
+        float time = keyboard.nextFloat();
+        float acceleration = (finishSpeed - initialSpeed) / time;
         System.out.println(acceleration);
 
     }
