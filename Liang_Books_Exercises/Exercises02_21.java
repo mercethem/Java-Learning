@@ -1,4 +1,5 @@
 //Financial application: Calculate future investment value
+
 import java.util.Scanner;
 
 public class Exercises02_21 {
@@ -9,12 +10,10 @@ public class Exercises02_21 {
         float investmentAmount = keyboard.nextFloat();
         float annualInterestRateInPercentage = keyboard.nextFloat();
         float numberOfYear = keyboard.nextFloat();
-        float monthlyInterestRate = (float)((annualInterestRateInPercentage * 0.01) / 12);
+        float monthlyInterestRate = (float) ((annualInterestRateInPercentage * 0.01) / 12);
         float futureInvestmentValue;
-        futureInvestmentValue = (float) (investmentAmount * Math.pow( (1 + monthlyInterestRate), numberOfYear*12));
+        futureInvestmentValue = (float) (investmentAmount * Math.pow((1 + monthlyInterestRate), numberOfYear * 12));
         System.out.println(futureInvestmentValue);
-
-
 
 
     }
