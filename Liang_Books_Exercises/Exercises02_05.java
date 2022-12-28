@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercises02_05{
+public class Exercises02_05 {
     public static void main(String[] args) {
 
         Scanner keyboard = new Scanner(System.in);
@@ -11,8 +11,7 @@ public class Exercises02_05{
         double gratuity = (subtotal * gratuityRate) / 100;
         double total = gratuity + subtotal;
 
-        System.out.println("The gratuity is $" + gratuity +  " and total is $" + total);
+        System.out.println("The gratuity is $" + gratuity + " and total is $" + total);
 
     }
-
 }
