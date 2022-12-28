@@ -12,7 +12,7 @@ public class Exercises02_10 {
         float initialTemperature = keyboard.nextFloat();
         System.out.println("Enter the final temperature");
         float finalTemperature = keyboard.nextFloat();
-        float neededEnergy = amountOfWater * ( finalTemperature - initialTemperature) * 4184 ;
+        float neededEnergy = amountOfWater * (finalTemperature - initialTemperature) * 4184;
         System.out.println(neededEnergy);
 
 
