@@ -10,12 +10,11 @@ public class Exercises02_18 {
         Math.pow(a3, b3);
         Math.pow(a4, b4);
         Math.pow(a5, b5);
-        System.out.println((int)Math.pow(a1, b1));
-        System.out.println((int)Math.pow(a2, b2));
-        System.out.println((int)Math.pow(a3, b3));
-        System.out.println((int)Math.pow(a4, b4));
-        System.out.println((int)Math.pow(a5, b5));
-
+        System.out.println((int) Math.pow(a1, b1));
+        System.out.println((int) Math.pow(a2, b2));
+        System.out.println((int) Math.pow(a3, b3));
+        System.out.println((int) Math.pow(a4, b4));
+        System.out.println((int) Math.pow(a5, b5));
 
 
     }
