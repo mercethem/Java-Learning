@@ -15,9 +15,9 @@ public class Exercises02_19 {
         double side1 = Math.sqrt((x2 - x3) * (x2 - x3) + (y2 - y3) * (y2 - y3));
         double side2 = Math.sqrt((x1 - x3) * (x1 - x3) + (y1 - y3) * (y1 - y3));
         double side3 = Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
-        double s = ((side1+side2+side3)/2);
+        double s = ((side1 + side2 + side3) / 2);
         double area;
-        area = Math.sqrt((s*(s-side1)*(s-side2)*(s-side3)));
+        area = Math.sqrt((s * (s - side1) * (s - side2) * (s - side3)));
         System.out.println(area);
 
 
