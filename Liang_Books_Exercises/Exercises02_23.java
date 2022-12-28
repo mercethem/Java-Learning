@@ -10,7 +10,7 @@ public class Exercises02_23 {
         double milesPerGallon = keyboard.nextDouble();
         double pricePerGallon = keyboard.nextDouble();
         double result;
-        result = drivingDistance/milesPerGallon*pricePerGallon;
+        result = drivingDistance / milesPerGallon * pricePerGallon;
         System.out.println(result);
     }
 }
