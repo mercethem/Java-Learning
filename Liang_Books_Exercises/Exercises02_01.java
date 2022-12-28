@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Exercises02_01 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
