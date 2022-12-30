@@ -24,12 +24,13 @@ class LuxuryCar extends Car{
 public class OverridingExample {
     public static void main(String[] args) {
         Car c=new Car();
+
         c.start();
         c.accelerate();
         c.changeGear();
         System.out.println();
 
-        LuxuryCar lc=new LuxuryCar();
+        LuxuryCar lc= new LuxuryCar();
         lc.start();
         lc.accelerate();
         lc.changeGear();
