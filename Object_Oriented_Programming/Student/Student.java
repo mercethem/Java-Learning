@@ -43,7 +43,7 @@ class StudentTest {
         System.out.println("Please enter your roll number : ");
         s.roll = keyboard.nextInt();
         System.out.println("Plese enter your name : ");
-        s.name= keyboard.next();
+        s.name = keyboard.next();
         System.out.println("Plese enter your course name : ");
         s.course = keyboard.next();
         System.out.println("Plese enter your m1 score : ");
@@ -51,9 +51,9 @@ class StudentTest {
         System.out.println("Plese enter your m2 score : ");
         s.m2 = keyboard.nextInt();
         System.out.println("Plese enter your m3 score : ");
-        s.m3= keyboard.nextInt();
+        s.m3 = keyboard.nextInt();
         System.out.println("Total : " + s.total());
-        System.out.println("Average : "+ s.average());
+        System.out.println("Average : " + s.average());
 
         System.out.println("Details  \n" + s.details());
     }
