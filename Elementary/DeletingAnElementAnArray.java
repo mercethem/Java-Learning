@@ -23,7 +23,7 @@ public class DeletingAnElementAnArray {
         for (int i = 0; i < index; i++) {
             System.out.print(A[i] + " ");
         }
-        for (int j = index; j < (A.length-index-1); j++) {
+        for (int j = index; j < (A.length - index - 1); j++) {
 
             int temp = A[j];
             A[j] = A[j + 1];
