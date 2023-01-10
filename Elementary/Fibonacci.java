@@ -1,4 +1,5 @@
 //Fibonacci
+
 import java.util.Scanner;
 
 public class Fibonacci {
@@ -15,12 +16,12 @@ public class Fibonacci {
             number3 = number1 + number2;
             temp1 = number2;
             number2 = number3;
-            number3 = temp1 ;
+            number3 = temp1;
 
             temp2 = number1;
-            number1=number2;
-            number2=temp2;
-            System.out.print(" "+ number3);
+            number1 = number2;
+            number2 = temp2;
+            System.out.print(" " + number3);
 
         }
     }
