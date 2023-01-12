@@ -1,3 +1,4 @@
+//About escape sequences
 public class EscapeSequences {
     public static void main(String[] args) {
         System.out.println("Hello \"java\" world!");
@@ -7,9 +8,5 @@ public class EscapeSequences {
         System.out.println("Hello\fjava\fworld!");
         System.out.println("Hello\rjava\rworld!");
         System.out.println("Hello\\java\\world!");
-        
-
-
-
     }
 }
