@@ -22,10 +22,10 @@ class producer extends Thread {
 
     public void run() {
         for (int i = 0; i < 10; i++) {
-            synchronized (d) { //Thread synchronized ===> critic
+            //synchronized (d) { //Thread synchronized ===> critic
                 d.ival++;
                 System.out.println("Producer " + d.ival);
-            }
+            //}
         }
     }
 }
@@ -39,10 +39,10 @@ class consumer implements Runnable {
 
     public void run() {
         for (int i = 0; i < 10; i++) {
-            synchronized (d) {  //Thread synchronized ===> critic
+            //synchronized (d) {  //Thread synchronized ===> critic
                 d.ival--;
                 System.out.println("Consumer " + d.ival);
-            }
+            //}
         }
     }
 }
